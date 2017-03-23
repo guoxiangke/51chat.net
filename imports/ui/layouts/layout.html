@@ -1,0 +1,10 @@
+<template name="layout">
+  <div class="container">
+    {{> header}}
+    {{! > errors}}
+    <div id="main">
+      {{! > yield}}
+      {{> Template.dynamic template=main}}
+    </div>
+  </div>
+</template>
