@@ -26,3 +26,6 @@ johanbrook:publication-collector  # Test a Meteor publication by collecting its 
 msavin:mongol
 coffeescript
 51chat:packdemo
+ian:accounts-ui-bootstrap-3
+twbs:bootstrap
+accounts-password
