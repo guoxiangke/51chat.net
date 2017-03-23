@@ -1,6 +1,7 @@
+var colors = Npm.require('colors');
 Meteor.methods({
-  serverlog : function(msg){
-    console.log(msg);
+  serverlog : function(msg,warn){
+    console.log(msg.rainbow);
   }
 });
 console.log(TestPack);

@@ -28,3 +28,7 @@ Package.onTest(function(api) {
   api.use('51chat:packdemo');
   api.mainModule('packdemo-tests.js');
 });
+
+Npm.depends({
+    "colors": "0.6.2"
+});
