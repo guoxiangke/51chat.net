@@ -14,6 +14,12 @@ Package.onUse(function(api) {
   api.versionsFrom('1.4.3.2');
   api.use('ecmascript');
   api.mainModule('packdemo.js');
+  // api.addFiles('packdemo.js', 'client');
+  api.addFiles('packdemoserver.js', 'server');
+
+  if (api.export){
+    api.export('TestPack');
+  }
 });
 
 Package.onTest(function(api) {
