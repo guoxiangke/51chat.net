@@ -29,3 +29,7 @@ coffeescript
 ian:accounts-ui-bootstrap-3
 twbs:bootstrap
 accounts-password
+alanning:roles
+aldeed:autoform
+aldeed:collection2-core
+aldeed:simple-schema

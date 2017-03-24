@@ -58,4 +58,29 @@ Meteor.startup(() => {
 
     data.forEach(post => Posts.insert(post));
   }
+  if (Meteor.users.find().count() === 0) {
+    var users = [
+        {name:"User",email:"user@example.com",roles:['user-normal']},
+        {name:"Client",email:"client@example.com",roles:['users-client']},
+        {name:"Agent",email:"agent@example.com",roles:['user-agent']},
+        {name:"Admin",email:"admin@example.com",roles:['user-admin']}
+      ];
+
+    _.each(users, function (user) {
+      var id;
+
+      id = Accounts.createUser({
+        email: user.email,
+        password: "123456",
+        profile: { name: user.name }
+      });
+      console.log(id);
+      if (user.roles.length > 0) {
+        // Need _id of existing user record so this call must come
+        // after `Accounts.createUser` or `Accounts.onCreate`
+        Roles.addUsersToRoles(id, user.roles);
+      }
+
+    });
+  }
 });

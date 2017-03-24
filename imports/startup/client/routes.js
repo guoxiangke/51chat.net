@@ -7,6 +7,7 @@ import '../../ui/layouts/body/body.js';
 import '../../ui/pages/home/home.js';
 import '../../ui/pages/posts/posts.js';
 import '../../ui/pages/posts/post_item.js';
+import '../../ui/pages/admin/users/users.js';
 import '../../ui/pages/not-found/not-found.js';
 
 // Set up all routes in the app
@@ -22,7 +23,27 @@ FlowRouter.route('/posts', {
     BlazeLayout.render('layout', { main: 'postsList' });
   },
 });
+var adminRoutes = FlowRouter.group({
+  prefix: '/admin',
+  name: 'admin',
+  triggersEnter: [function(context, redirect) {
+    console.log('running group triggers');
+  }]
+});
 
+adminRoutes.route('/users', {
+  name: 'users.list',
+  action() {
+    BlazeLayout.render('layout', { main: 'usersList' });
+  },
+});
+
+adminRoutes.route('/users/:_id/edit', {
+  name: 'users.edit',
+  action() {
+    BlazeLayout.render('layout', { main: 'usersEdit' });
+  },
+});
 FlowRouter.notFound = {
   action() {
     BlazeLayout.render('App_body', { main: 'App_notFound' });

@@ -1,0 +1,25 @@
+<template name="usersList">
+ {{#if Template.subscriptionsReady}}
+  <table class="table">
+    <caption>All Users.</caption>
+    <thead>
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Emails</th>
+          <th>Roles</th>
+        </tr>
+      </thead>
+    {{#each users}}
+      <tr>
+        <td>{{_id}}</td>
+        <td>{{name}}</td>
+        <td>{{email}}</td>
+        <td>{{role}}</td>
+      </tr>
+    {{/each}}
+  </table>
+  {{else}}
+      <p>Loading...</p>
+  {{/if}}
+</template>
