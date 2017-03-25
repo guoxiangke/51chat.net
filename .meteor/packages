@@ -26,10 +26,10 @@ johanbrook:publication-collector  # Test a Meteor publication by collecting its 
 msavin:mongol
 coffeescript
 51chat:packdemo
-ian:accounts-ui-bootstrap-3
-twbs:bootstrap
+#twbs:bootstrap
 accounts-password
 alanning:roles
-aldeed:autoform
-aldeed:collection2-core
+#aldeed:autoform
+#aldeed:collection2-core
 aldeed:simple-schema
+nicolaslopezj:orion-admin-only-bootstrap

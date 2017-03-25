@@ -15,7 +15,12 @@
         <td>{{_id}}</td>
         <td>{{name}}</td>
         <td>{{email}}</td>
-        <td>{{role}}</td>
+        <td>
+          <select name="" id="">
+            <option value=""></option>
+            <option value="{{role}}" selected="selected">{{role}}</option>
+          </select>
+        </td>
       </tr>
     {{/each}}
   </table>

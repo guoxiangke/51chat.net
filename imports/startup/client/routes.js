@@ -17,6 +17,14 @@ FlowRouter.route('/', {
     BlazeLayout.render('App_body', { main: 'App_home' });
   },
 });
+import '../../ui/layouts/page_layout.js';
+import '../../ui/pages/home/home.js';
+FlowRouter.route('/home', {
+  name: 'App.home',
+  action() {
+    BlazeLayout.render('page_layout', { main: 'page_home' });
+  },
+});
 FlowRouter.route('/posts', {
   name: 'posts.list',
   action() {
