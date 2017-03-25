@@ -16,15 +16,15 @@ import '../../ui/pages/home/home.js';
 
 
 // Set up all routes in the app
-FlowRouter.route('/', {
-  name: 'App.home',
-  action() {
-    BlazeLayout.render('App_body', { main: 'App_home' });
-  },
-});
+// FlowRouter.route('/', {
+//   name: 'App.home',
+//   action() {
+//     BlazeLayout.render('App_body', { main: 'App_home' });
+//   },
+// });
 import '../../ui/layouts/page_layout.js';
 import '../../ui/pages/livechat/home.js';
-FlowRouter.route('/home', {
+FlowRouter.route('/', {
   name: 'App.livechathome',
   action() {
     BlazeLayout.render('page_layout', { main: 'page_home' });
