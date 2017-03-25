@@ -1,0 +1,8 @@
+import './demo.html'
+import './price.html'
+import './docs.html'
+import './doc-details.html'
+import './doc-details-2.html'
+import './livechat.html'
+import './customers.html'
+import './home.html'

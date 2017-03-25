@@ -1,0 +1,57 @@
+
+  <template name="doc_details">
+    <div class="doc-detail">
+      <section class="docs-list">
+        <div class="doc-container">
+          <ul class="breadcrumb">
+            <li><a href="#">All Collections</a></li>
+            <li><a href="#">Install on your product or site</a></li>
+            <li><a href="#">Quick Install</a></li>
+            <li>Install Intercom on your  web app</li>
+          </ul>
+          <div class="doc-detail-container">
+            <div class="content-container">
+              <h1>Install Intercom on your web app</h1>
+              <div class="info">
+                <div class="avatar"><img src="./images/doc/person-1.jpg"></div>
+                <div class="text"><span class="dark">11 articles in this collection</span><br>Written by<span class="dark"> Zara Burke</span> and<span class="dark"> Ruairí Galavan</span></div>
+              </div>
+              <p>It only takes a few minutes to install Intercom on your web app. Once installed, you’ll be able to see and talk to logged in users of your app. </p>
+              <p>
+                 First, enter your email address on <a href="http://www.intercom.io/" target="_blank"> the Intercom homepage</a> and create your account.&nbsp;</p><img src="./images/doc/step-1.png">
+              <p>Next, start your free trial. </p><img src="./images/doc/step-2.png">
+              <h4>Here's how your free trial works: </h4>
+              <ol>
+                <li>You'll get a 14 day free trial of each product, which you can start at any time.</li>
+                <li>After your free trial ends, <a href="https://www.intercom.io/pricing" target="_blank">Intercom's products start at $49/month</a>.</li>
+                <li>If you cancel in the first 14 days you won't be charged. </li>
+              </ol>
+              <p>Finally, continue to the setup guide and follow the instructions provided to install Intercom.</p><img src="./images/doc/step-3.png">
+              <p>Now you're ready to start using Intercom. </p>
+              <h3>Here’s the JavaScript install code</h3>
+              <p>You'll then see the code snippet you need to install. Or you can quickly grab it from here instead: </p>
+              <pre class="hljs xml"><code>&lt;script&gt;<br>  window.intercomSettings = {<br>    app_id: 'APP_ID',<br>    name: "Jane Doe", // Full name<br>    email: "<a href="mailto:customer@example.com" rel="nofollow noopener noreferrer" target="_blank">customer@example.com</a>", // Email address<br>    created_at: 1312182000 // Signup date as a Unix timestamp<br>  };<br>&lt;/script&gt;<br>&lt;script&gt;(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='<a href="https://widget.intercom.io/widget/APP_ID';var" rel="nofollow noopener noreferrer" target="_blank">https://widget.intercom.io/widget/APP_ID';var</a> x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()&lt;/script&gt;</code></pre><b>How to use the code</b>
+              <ol>
+                <li>Paste the code right before the closing body tag of every page where you want the Intercom Messenger to appear. </li>
+                <li>Then just edit the code to include the email address and signed-up date of the user who is currently logged in. </li>
+                <li> <b>IMPORTANT:</b> Make sure to change YOUR_APP_ID. </li>
+                <li>To complete the code install, activate Intercom by logging into your app in your development environment. </li>
+              </ol>
+              <h3>What’s next?</h3>
+              <ul>
+                <li> <b>Watch a demo: </b>If you'd like to learn how to use Intercom from the people who built it, <a href="https://docs.intercom.com/recorded-intercom-demos" target="_blank">watch a prerecorded demo</a></li>
+                <li> <b>Finish setting up</b>: Once you’re logged in to your Intercom account, open the Intercom Setup Guide (lower left hand side of your screen) to finish setting up.</li>
+              </ul>
+              <h3>Want to talk to visitors to your website?</h3>
+              <p>
+                 Check out our guide for <a href="#" target="_blank">installing Intercom Acquire on your website</a></p>
+            </div>
+          </div>
+          <div class="evaluation">
+            <div class="title">Did this answer your question?</div>
+            <div class="emoji"> <span>😃</span><span>😐</span><span>😞</span></div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </template>
