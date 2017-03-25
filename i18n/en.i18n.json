@@ -1,0 +1,49 @@
+{
+  "menu": {
+
+  },
+  "footer": {
+
+  },
+  "products": {
+    "Acquire": "Acquire",
+    "Engage" : "Engage",
+    "Educate" : "Educate",
+    "Resolve" : "Resolve"
+  },
+  "pages": {
+    "global": {
+      "pageNotFound": "Page not found"
+    },
+    "homepage": {
+      "p1": "Communicating with customers shouldn’t be this hard.",
+      "p2" :  "With Intercom it’s simple, personal, and fun for everyone. ",
+      "p3" :  "Enter your email ",
+      "p4" :  "Get Started ",
+      "p5" :  "Easy set-up ",
+      "p6" :  "Try any product free for 14 days ",
+      "p7" :  "Cancel at any time ",
+      "p8" :  "Meet our products ",
+      "p9" :  "We make customer messaging products for sales, marketing, and support teams, connected on one platform.",
+      "p10" : "Website live chat ",
+      "p11" : "Chat with website visitors in real-time, capture leads, and continue conversations by email. ",
+      "p12" : "Learn more ",
+      "p13" : "Customer engagement ",
+      "p14" : "Send targeted messages to onboard users, make announcements, and re-engage people. ",
+      "p15" : "Provide personal customer support at scale ",
+      "p17" : "Knowledge base ",
+      "p18" : "Let customers help themselves with a knowledge base that constantly improves. ",
+      "p19" : "Help desk ",
+      "p20" : "Manage customer requests for help across all channels and respond faster with a modern help desk. ",
+      "p21" : "The Intercom Platform ",
+      "p22" : "All of our products work together in one place, powered by live customer data. ",
+      "p23" : "Start Your Free Trial ",
+      "p24" : "Provide personal customer support at scale ",
+      "p26" : "See who your customers are ",
+      "p27" : "and what they do in your app, for free. ",
+      "p28" : "15,000 customers and counting. Helping the very best web & mobile businesses communicate with their customers.",
+      "p29" : "FREE FOREVER ",
+      "p30" : "Welcome to Orion CMS"
+    }
+  }
+}

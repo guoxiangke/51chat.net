@@ -1,1 +1,5 @@
+import './html_header.js'
+import './html_footer.js'
+import './page_header.js'
+import './page_footer.js'
 import './page_layout.html'

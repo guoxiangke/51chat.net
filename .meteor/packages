@@ -27,9 +27,12 @@ msavin:mongol
 coffeescript
 51chat:packdemo
 #twbs:bootstrap
+accounts-ui
 accounts-password
-alanning:roles
+#alanning:roles
 #aldeed:autoform
 #aldeed:collection2-core
 aldeed:simple-schema
-nicolaslopezj:orion-admin-only-bootstrap
+#nicolaslopezj:orion-admin-only-bootstrap
+tap:i18n
+session
