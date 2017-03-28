@@ -5,3 +5,4 @@ import './register-api.js';
 
 
 import './publications.js';
+import './kadira.js';
